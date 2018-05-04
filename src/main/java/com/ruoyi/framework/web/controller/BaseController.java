@@ -38,7 +38,7 @@ public class BaseController
             int pageNum = Integer.valueOf(page.getPageNum());
             int pageSize = Integer.valueOf(page.getPageSize());
             String orderBy = page.getOrderBy();
-            PageHelper.startPage(pageNum, pageSize, orderBy);
+            PageHelper.startPage(pageNum, pageSize, Boolean.parseBoolean(orderBy));
         }
     }
 

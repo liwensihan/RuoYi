@@ -1,4 +1,7 @@
+create DATABASE ry;
+USE ry;
 -- ----------------------------
+
 -- 1、部门表
 -- ----------------------------
 drop table if exists sys_dept;
